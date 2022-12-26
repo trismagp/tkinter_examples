@@ -36,9 +36,7 @@ class App(customtkinter.CTk):
         url = self.entry.get().strip()
         self.entry.delete(0,tk.END)
         self.entry.placeholder_text = "input youtube url"
-        
         title = download_360p_mp4_videos(url)
-        title = download_360p_mp4_videos(self.entry.get().strip())
         self.textbox.insert("insert",  title + "==>downloaded\n")
 
 
