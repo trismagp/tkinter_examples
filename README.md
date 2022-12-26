@@ -1,6 +1,10 @@
+### Simple youtube downloader
+
+![alt text](https://github.com/trismagp/tkinter_examples/blob/main/blob/ytdl_screenshot.png?raw=true)
+
 ### Getting Started
 
-1. Checkout this repo, install dependencies, then start the gulp process with the following:
+Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
 > git clone https://github.com/trismagp/tkinter_examples.git
