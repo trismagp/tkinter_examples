@@ -33,11 +33,15 @@ class App(customtkinter.CTk):
         self.textbox.pack( padx=5, pady=10)
 
     def button_callback(self):
+<<<<<<< HEAD
         url = self.entry.get().strip()
         self.entry.delete(0,tk.END)
         self.entry.placeholder_text = "input youtube url"
         
         title = download_360p_mp4_videos(url)
+=======
+        title = download_360p_mp4_videos(self.entry.get().strip())
+>>>>>>> 6dec24634238848420ee922cdbff2d4bb7457503
         self.textbox.insert("insert",  title + "==>downloaded\n")
 
 
