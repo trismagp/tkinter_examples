@@ -5,6 +5,6 @@
 ```
 > git clone https://github.com/trismagp/tkinter_examples.git
 > cd tkinter_examples
-> pip install pytube thinker
+> pip install pytube thinker customtkinter
 > python [app_file_name].py
 ```
