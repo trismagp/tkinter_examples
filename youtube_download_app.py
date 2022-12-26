@@ -33,7 +33,7 @@ class App(customtkinter.CTk):
 
     def button_callback(self):
         title = download_360p_mp4_videos(self.entry.get().strip())
-        self.textbox.insert("insert",  title + "downloaded\n")
+        self.textbox.insert("insert",  title + "==>downloaded\n")
 
 
 if __name__ == "__main__":
